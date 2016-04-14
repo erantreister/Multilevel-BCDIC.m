@@ -1,0 +1,32 @@
+This file describes how to install Metis 5.0.2 in Windows and Metis-mex interface (D. Gleich). The process should be similar (or easier) for other platforms.
+
+0) Get Metis 5.0.2: http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.0.2.tar.gz and put it in the directory <BCDIC>\clustering\metis-5.0.2\
+
+1) Install cmake
+
+2) Change include/metis.h to be for 32/64 bits based on your system and compiler (first define: “#define IDXTYPEWIDTH “).
+
+3) Look for the name of the generator related to the compiler in the computer.
+for example VS2010 : "Visual Studio 10"
+
+4) Run in the metis directory: .\vsgen -G "<GEN>" (change <GEN> by what found in the last step)
+
+5) Wait... wait... 
+
+6) Open the solution file
+
+7) Set VS to RELEASE for compiling
+
+8) Build the solution (F7).
+
+9) Get metis-mex code from https://github.com/dgleich/metismex and put it in a metismex directory inside the metis main directory.
+
+10) Add to the make.m file (inside the metismex directory) the following case ot the switch:
+    case 'PCWIN64'
+        mex -O -v -largeArrayDims -I../include -I../libmetis -I../GKlib -L..\build\windows\libmetis\Debug -lmetis metismex.c -D__thread= -DWIN32 -DUSE_GKREGEX COMPFLAGS="$COMPFLAGS " LINKFLAGS="$LINKFLAGS"
+
+NOTE: that you may need to change the directory that appears in the -L parameter of the compilation.
+
+11) To compile metis-mex, you need to run the make.m command in the BCD-IC main directory.
+
+
