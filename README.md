@@ -1,5 +1,5 @@
-# LargeScaleSparseInverseCovarianceEstimation.m
-A multilevel and one-level methods for large scale sparse inverse covariance estimation using l-1 prior.
+# Multilevel-BCDIC.m
+A multilevel and one-level Block-Coordinate Descent methods for large scale sparse inverse covariance estimation using l-1 prior.
 
 Version: 1.1 (June 2015)
 
