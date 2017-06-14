@@ -12,21 +12,22 @@ Neural Information Processing Systems (NIPS), Dec. 2014.
 http://papers.nips.cc/paper/5497-a-block-coordinate-descent-approach-for-large-scale-sparse-inverse-covariance-estimation
 
 [2] Eran Treister, Javier Turek and Irad Yavneh, 
+A multilevel framework for sparse optimization with application to inverse covariance estimation and logistic regression
+SIAM J. Sci. Comput., 38 (5), S566–S592, 2016.
+http://epubs.siam.org/doi/abs/10.1137/15M102469X
+https://arxiv.org/pdf/1607.00315v1.pdf
+
+
+[3] Eran Treister, Javier Turek and Irad Yavneh, 
 A Multilevel Framework for Sparse Inverse Covariance Estimation. 
 Optimization Workshop at NIPS, Dec. 2014.
 http://www.opt-ml.org/papers/opt2014_submission_13.pdf
+ 
 
-[3] Eran Treister, Javier Turek and Irad Yavneh, 
-A multilevel framework for sparse optimization with application to inverse covariance estimation and logistic regression
-SISC, 2016.
+Eran Treister, Computer Science Department, Ben-Gurion University of the Negev, Beer Sheva, Israel. 
+Contact email regarding this package: erant at cs.bgu.ac.il.
 
-
-The Technion---Israel Institute of Technology, Haifa 32000, Israel.
-Contact email: eran@cs.technion.ac.il, javiert@cs.technion.ac.il, irad@cs.technion.ac.il.
-
-Please, cite the papers [1] and [3] if you use our code.
-
-Bug reports should be sent to eran@cs.technion.ac.il, javiert@cs.technion.ac.il.
+Please, cite the papers [1] and [2] if you use our code.
 
 ----------------------------------------------------------------------------
 
