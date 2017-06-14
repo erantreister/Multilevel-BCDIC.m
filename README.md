@@ -14,9 +14,7 @@ http://papers.nips.cc/paper/5497-a-block-coordinate-descent-approach-for-large-s
 [2] Eran Treister, Javier Turek and Irad Yavneh, 
 A multilevel framework for sparse optimization with application to inverse covariance estimation and logistic regression
 SIAM J. Sci. Comput., 38 (5), S566–S592, 2016.
-http://epubs.siam.org/doi/abs/10.1137/15M102469X
-
-https://arxiv.org/pdf/1607.00315v1.pdf
+http://epubs.siam.org/doi/abs/10.1137/15M102469X , https://arxiv.org/pdf/1607.00315v1.pdf
 
 
 [3] Eran Treister, Javier Turek and Irad Yavneh, 
